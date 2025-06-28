@@ -17,8 +17,7 @@ const ChatScreen = () => {
   const [loading, setLoading] = useState(false);
   const scrollViewRef = useRef();
   
-  // Claude API anahtarı - güvenli yönetim için dotenv veya react-native-config kullanmanızı öneririm
-  const CLAUDE_API_KEY = "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";
+  const CLAUDE_API_KEY = "#";
 
   // Claude API'ye istek göndermek için fonksiyon
   const sendClaudeRequest = async (userMessage) => {

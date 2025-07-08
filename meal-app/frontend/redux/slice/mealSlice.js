@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // API URL
-const API_URL = "http://192.168.196.80:5000/meals";
+const API_URL = "http://localhost:5000/meals";
 
 // Yemekleri getirme
 export const fetchMeals = createAsyncThunk("meals/fetchMeals", async () => {
